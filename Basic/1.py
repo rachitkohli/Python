@@ -43,3 +43,12 @@ txt.close()
 '''
 lst = [10, 3, 5, 6]
 print (max(lst))
+
+x = lambda a,b,c : a * b * c
+print (x(2,3,4))
+
+t1 = ("Rachit", "Nitin", "Adhir")
+t2 = ("Kohli", "Ghag", "More")
+tzip = zip(t1, t2)
+print (tuple(tzip))
+
